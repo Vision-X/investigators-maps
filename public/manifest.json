@@ -1,0 +1,6 @@
+{
+  "short_name": "React App",
+  "name": "Investigators - Drill 1",
+  "start_url": "./index.html",
+  "display": "standalone"
+}
