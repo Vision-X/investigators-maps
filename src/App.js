@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MapContainer from './MapContainer.js';
+
 
 class App extends Component {
+  constructor() {
+    super();
+
+  }
+
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <header>
+              <h1>galvanize</h1>
+          </header>
+          <main>
+          <section>
+              <h2>Location</h2>
+              <MapContainer />
+          </section>
+          </main>
       </div>
     );
   }
