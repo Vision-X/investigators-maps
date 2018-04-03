@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
-import MapBuilder from './MapBuilder.js'
-// import L from 'leaflet';
+import MapContainer from './MapContainer.js';
+
 
 class App extends Component {
   constructor() {
     super();
-    this.state = {
 
-    }
   }
-
-
 
   render() {
     return (
@@ -22,7 +18,7 @@ class App extends Component {
           <main>
           <section>
               <h2>Location</h2>
-              <MapBuilder />
+              <MapContainer />
           </section>
           </main>
       </div>
